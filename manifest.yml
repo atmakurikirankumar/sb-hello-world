@@ -1,0 +1,10 @@
+---
+applications:
+- name: spring-boot-starter-example
+  path: ./target/spring-boot-starter-example-1.0.0-SNAPSHOT.jar
+  instances: 1
+  memory: 1G
+#  buildpack: java_buildpack_offline
+  random-route: false
+  env:
+     SPRING_PROFILES_ACTIVE:
